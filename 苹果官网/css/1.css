@@ -1,0 +1,422 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    min-width: 1200px;
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.gg{
+    height: 40px;
+    background: #444;
+}
+.gg .cantain{
+    width: 1000px;
+    margin: 0 auto;
+}
+.gg .cantain span{
+    float: right;
+    line-height: 40px;
+    color: #fff;
+}
+.nav{
+    height: 44px;
+    background: rgba(45,45,0.98, 0.98);
+    color: #fff;
+    line-height: 44px;
+}
+.nav .cantain{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background: url(../images/logo.svg) no-repeat center;
+}
+.search{
+    display: inline-block;
+    width: 120px;
+    height: 44px;
+    background: url(../images/search.svg) no-repeat center;
+}
+.buy{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    background: url(../images/buy.svg) no-repeat center;
+}
+.text{
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    font-size: 14px;
+}
+.text a{
+    color: #fff;
+    text-decoration:none;
+}
+.logo,.text{
+    float: left;
+}
+.search,.buy{
+    float: right;
+}
+.digou{
+    margin-top: 84px;
+    text-align: center;
+    background: #fafafa;
+    padding: 51px;
+}
+.digou h1{
+    font-size: 34px;
+    line-height: 1.125;
+}
+.digou p{
+    font-size: 21px;
+    line-height: 1.381;
+}
+.digou a{
+    color: #0070c9;
+    font-size: 21px;
+    line-height: 1.381;
+    text-decoration: none;
+}
+.xr{
+    margin-top: 20px;
+    height: 692px;
+    background: url(../images/xr.jpg) no-repeat;
+    background-color: #fafafa;
+    background-position: center bottom;
+    text-align: center;
+}
+.xr h1{
+    padding: 50px 0 20px;
+}
+.xr p{
+    font-size: 21px;
+    line-height: 1.381;
+    width: 610px;
+    margin: 0px auto;
+}
+.xr p a{
+    text-decoration:none;
+    color: #0070c9;
+}
+.xr p .xra{
+    margin: 0 25px;
+}
+.xs{
+    margin-top: 20px;
+    height: 692px;
+    background: url(../images/xs.jpg) no-repeat;
+    background-color: #fafafa;
+    background-position: center bottom;
+    text-align: center;
+}
+.xs h1{
+    padding: 50px 0 20px;
+}
+.xs p{
+    font-size: 21px;
+    line-height: 1.381;
+    width: 610px;
+    margin: 0 auto;
+}
+.xs p a{
+    text-decoration:none;
+    color: #0070c9;
+}
+.xs p .xsa{
+    margin: 0 25px;
+}
+.iwatch{
+    margin-top: 20px;
+    height: 692px;
+    background: url(../images/iwatch.jpg) no-repeat;
+    background-color: #fafafa;
+    background-position: center bottom;
+    text-align: center;
+}
+.iwatch h1{
+    padding: 50px 0 20px;
+}
+.iwatch p{
+    font-size: 21px;
+    line-height: 1.381;
+    width: 610px;
+    margin: 0 auto;
+}
+.iwatch p a{
+    text-decoration:none;
+    color: #0070c9;
+}
+.iwatch p .iwatcha{
+    margin: 0 25px;
+}
+.banner{
+    width: 100%;
+    text-align: center;
+    background:#fff;
+}
+.left{  height: 580px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px 20px 10px 10px;
+    /*background: #ccc;*/
+    float: left;
+}
+.banner .left .content{
+    background: url(../images/ios13.jpg) no-repeat;
+    background-position: center bottom;
+    height: 100%;
+    color: #111;
+}
+.banner .left .content .text{
+    width: 100%;
+    height: 580px;
+    margin-top: 20px;
+    text-align: center;
+}
+.banner .left .content h1{
+    font-size: 41px;
+    color: #fff;
+}
+.banner .left .content p{
+    font-size: 21px;
+    color: #fff;
+}
+.banner .left .content a{
+    text-decoration:none;
+    color: #0070c9;
+}
+.right{
+    height: 580px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px 20px 10px 10px;
+    /*background: #ccc;*/
+    float: left;
+}
+.banner .right .content{
+    background: url(../images/ipad.jpg) no-repeat;
+    background-position: center bottom;
+    height: 100%;
+    color: #111;
+}
+.banner .right .content .text2{
+    height: 580px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.banner .right .content h1{
+    font-size: 41px;
+}
+.banner .right .content p{
+    font-size: 21px;
+}
+.banner .right .content a{
+    text-decoration:none;
+    color: #0070c9;
+}
+.notebook{
+    width: 100%;
+    text-align: center;
+}
+.notebook .macbook{
+    height: 580px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px 10px 10px 20px;
+    /*background: #ccc;*/
+    float: left;
+}
+.notebook .macbook .macos{
+    background: url(../images/mac.jpg) no-repeat;
+    background-position: center;
+    height: 100%;
+    color: #fff;
+}
+.notebook .macbook .macos h1{
+    color: #111;
+    font-size: 41px;
+} 
+.notebook .macbook .macos p{
+    color: #111;
+    font-size: 21px;
+}
+.notebook .macbook .macos a{
+    text-decoration:none;
+    color: #0070c9;
+}
+.macpro{
+    width: 100%;
+    text-align: center;
+}
+.macpro .Host{
+    height: 580px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px 10px 10px 20px;
+    /*background: #ccc;*/
+    float: left;
+}
+.macpro .Host .text3{
+    background: url(../images/host.jpg) no-repeat;
+    background-position: center;
+    height: 100%;
+    color: #fff;
+}
+.macpro .Host .text3 h1{
+    color: #111;
+    font-size: 41px;
+}
+.macpro .Host .text3 p{
+    color: #111;
+    font-size: 21px;
+}
+.macpro .Host .text3 a{
+    text-decoration:none;
+    color: #0070c9;
+}
+.cardgame{
+    width: 100%;
+    text-align: center;
+}
+.cardgame .card{
+    height: 580px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px 10px 10px 20px;
+    /*background: #ccc;*/
+    float: left;
+}
+.cardgame .card .cardtext{
+    background: url(../images/card1.jpg) no-repeat;
+    background-position: center;
+    height: 100%;
+    color: #fff;
+    padding-top: 20px;
+}
+.cardgame .card .cardtext p{
+    color: #111;
+    font-size: 21px;
+}
+.cardgame .card .cardtext a{
+    text-decoration:none;
+    color: #0070c9;
+}
+.game{
+    height: 580px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px 10px 10px 20px;
+    /*background: #ccc;*/
+    float: left;
+}
+.game .gametext{
+    background: url(../images/game.jpg) no-repeat;
+    background-position: center;
+    height: 100%;
+    color: #fff;
+}
+.game .gametext p{
+    color: #fff;
+}
+.game .gametext .gameplay{
+    height: 100%;
+    color: #fff;
+    padding-top: 20px;
+}
+.game .gametext p{
+    color: #111;
+    font-size: 21px;
+}
+.game .gametext a{
+    text-decoration:none;
+    color: #0070c9;
+}
+.clear ::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.footer{
+    height: 623px;
+    width: 1000px;
+    margin:0 auto;
+    background: #f2f2f2;
+    border-top: 20px solid#fff;
+}
+/*.ftop .fmid .fbottom{
+    width: 1000px;
+    height: 0 auto;
+}*/
+.ftop{
+    padding: 20px;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #888;
+    border-bottom: 1px solid#ccc;
+}
+.ftop p{
+    padding: 5px 0;
+}
+.fmid{
+    padding: 20px;
+}
+.fmid .item{
+    box-sizing: border-box;
+    width: 20%;
+    height: 380px;
+    float: left;
+}
+.fmid .item h3{
+    font-size: 12px;
+    line-height: 1.33;
+    color: #111;
+    padding-bottom: 15px;
+}
+ul,li{
+    list-style: none;
+}
+.fmid .item a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-size: 12px;
+    padding-bottom: 8px;
+}
+.mtext{
+    padding-top: 8px;
+    font-size:12px;
+    color: #555;
+    padding-bottom: 20px;
+    border-bottom: 1px solid#ccc;
+}
+.mtext p{
+    margin-top: 10px;
+}
+.mtext a{
+    color: #0070c9;
+    text-decoration: none;
+}
+.mtext .usa{
+    float: right;
+}
+.mtext .text7{
+    display:block;
+    float: left;
+    margin-left: 140px;
+}
+.mtext .text8{
+    display: block;
+    float: left;
+}
